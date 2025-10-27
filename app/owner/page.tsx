@@ -237,7 +237,7 @@ export default function OwnerDashboard() {
                       <div className="flex space-x-2">
                         <button
                           onClick={() => setEditingProduct(product)}
-                          className="text-blue-600 hover:text-blue-800 text-sm"
+                          className="text-[#005A5A] hover:text-[#006A6A] text-sm"
                         >
                           Edit
                         </button>

@@ -131,7 +131,7 @@ export default function CustomerPage() {
                   placeholder="Search products..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#005A5A] focus:border-transparent"
                 />
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function CustomerPage() {
             >
               <ShoppingCart size={24} />
               {cartItemCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-blue-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                <span className="absolute -top-1 -right-1 bg-[#005A5A] text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
                   {cartItemCount}
                 </span>
               )}
@@ -163,7 +163,7 @@ export default function CustomerPage() {
                   onClick={() => setSelectedCategory(category)}
                   className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap ${
                     selectedCategory === category
-                      ? "bg-blue-600 text-white"
+                      ? "bg-[#005A5A] text-white"
                       : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                   }`}
                 >
